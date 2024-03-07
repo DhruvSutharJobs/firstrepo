@@ -6,3 +6,4 @@ this change was made by B!
 again a change
 change made by B2
 another commit
+difference between fetch and pull
