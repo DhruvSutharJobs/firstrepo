@@ -1,0 +1,19 @@
+Changes made by the B! branch
+
+# Conflicts:
+#	new.txt
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# interactive rebase in progress; onto 134eb64
+# Last command done (1 command done):
+#    pick 30ae39f Changes made by the B! branch
+# Next commands to do (2 remaining commands):
+#    pick 540bbc6 Update new.txt
+#    pick 7ce6472 ek aur conflict
+# You are currently rebasing.
+#
+# Changes to be committed:
+#	modified:   new.txt
+#
