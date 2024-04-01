@@ -1,0 +1,33 @@
+pipeline:
+  name: harness-to-git
+  identifier: harnesstogit
+  projectIdentifier: continuosintegration
+  orgIdentifier: default
+  tags: {}
+  properties:
+    ci:
+      codebase:
+        connectorRef: githubconnector
+        build: <+input>
+  stages:
+    - stage:
+        name: first
+        identifier: first
+        description: ""
+        type: CI
+        spec:
+          cloneCodebase: true
+          platform:
+            os: Linux
+            arch: Amd64
+          runtime:
+            type: Docker
+            spec: {}
+          execution:
+            steps:
+              - step:
+                  type: Run
+                  name: Run_1
+                  identifier: Run_1
+                  spec:
+                    shell: Sh
