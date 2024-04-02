@@ -31,5 +31,7 @@ pipeline:
                   identifier: Run_1
                   spec:
                     shell: Sh
+        delegateSelectors:
+          - docker-delegate
   flowControl:
     barriers: []
